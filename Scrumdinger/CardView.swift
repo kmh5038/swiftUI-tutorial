@@ -5,6 +5,8 @@
 //  Created by 김명현 on 10/31/23.
 //
 
+// Card View를 구성하는뷰
+
 import SwiftUI
 
 struct CardView: View {
