@@ -40,4 +40,8 @@ enum Theme: String {
     var mainColor: Color { // 연산 프로퍼티
         Color(rawValue)
     }
+    
+    var name: String { // 연산 프로퍼티
+        rawValue.capitalized
+    }
 }
